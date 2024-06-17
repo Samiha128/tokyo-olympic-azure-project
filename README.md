@@ -22,6 +22,13 @@ Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this proje
 ## data-pipeline
 
   ![workflow of the project](https://github.com/Samiha128/tokyo-olympic-azure-project/assets/120471620/67fae82a-f2fc-443e-84eb-cbd170c70663)
+  
+#  1. Extract from GitHub Repository
+#  2. Load to Azure Data Lake Gen2
+#  3. Transform Data with Azure Databricks
+#  4. Load Transformed Data into Azure Data Lake Gen2
+#  5. Load Data into Azure Synapse Analytics
+#  6. Create Dashboards with Power BI
 
 ## repository-structure
 
@@ -38,11 +45,12 @@ tokyo-olympic-azure-project
 │   │   Teams.csv
 │
 ├── images
-│   │   workflow of the project data pipeline.jpg
-│   │   data-pipeline.jpg
+│   │   workflow of the project data pipeline.png
+│   │   data-pipeline.png
 │
 └──  Tokyo Olympic Transformation.ipynb
 ```
+
        
 
 
