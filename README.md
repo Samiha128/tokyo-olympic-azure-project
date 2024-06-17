@@ -1,6 +1,7 @@
 # tokyo-olympic-azure-project
 # Table of Contents
-- Project Overview
+- # Project Overview
+- # Technologies Used
 # General overview of the project:
 Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this project employs Azure Data Factory (ADF) to smoothly bring this information into the raw layer of Azure Data Lake Storage (ADLS). Moving forward, Azure Databricks takes the lead, refining the dataset and storing the processed data in ADLS’s transformed layer. Azure Synapse Analytics steps in, primarily for robust data warehousing and detailed analysis, allowing deeper exploration and insights. Finally, Power BI visualizes these insights, marking the completion of a step-by-step process and providing a rich and comprehensive view of the 2021 Olympics dataset.
 
