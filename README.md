@@ -28,7 +28,7 @@ Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this proje
 #  3. Transform Data with Azure Databricks
 #  4. Load Transformed Data into Azure Data Lake Gen2
 #  5. Load Data into Azure Synapse Analytics
-#  6. Create Dashboards with Power BI
+### 6. Create Dashboards with Power BI
 
 ## repository-structure
 
