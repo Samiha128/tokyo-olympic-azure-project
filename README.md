@@ -1,6 +1,6 @@
 # tokyo-olympic-azure-project
 # Table of Contents
-- Project Overview
+
 - [Project Overview](#project-overview)
 - [Technologies Used](#technologies-used)
 - [Data Pipeline](#data-pipeline)
