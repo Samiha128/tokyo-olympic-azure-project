@@ -23,12 +23,12 @@ Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this proje
 
   ![workflow of the project](https://github.com/Samiha128/tokyo-olympic-azure-project/assets/120471620/67fae82a-f2fc-443e-84eb-cbd170c70663)
   
-####  1. Extract from GitHub Repository
-####  2. Load to Azure Data Lake Gen2
-####  3. Transform Data with Azure Databricks
-####  4. Load Transformed Data into Azure Data Lake Gen2
-####  5. Load Data into Azure Synapse Analytics
-####  6. Create Dashboards with Power BI
+####  1. Extract from GitHub Repository : Azure Data Factory is configured to extract the Tokyo Olympics data from a specified GitHub repository. This ensures that the most recent data is always available for subsequent processing. The extracted data is stored as raw data in Azure Data Lake Storage Gen2 (ADLS Gen2).
+####  2. Load to Azure Data Lake Gen2 : The extracted data is loaded into Azure Data Lake Gen2 for storage. This raw data serves as the initial dataset for further transformations.
+####  3. Transform Data with Azure Databricks : Azure Databricks, powered by PySpark, is used to perform data transformations. Data cleansing, enrichment, and preparation are done in Databricks notebooks to ensure the data is ready for analysis.
+####  4. Load Transformed Data into Azure Data Lake Gen2 : After transformation, the processed data is stored back into Azure Data Lake Gen2 in a dedicated 'transformed data' container. This segregates raw and processed data for better organization
+####  5. Load Data into Azure Synapse Analytics :  In Synapse, SQL queries can be applied to the data for further analysis and reporting. This step allows for efficient querying and reporting through data warehousing.
+####  6. Create Dashboards with Power BI : Power BI is connected to Azure Synapse Analytics and loads the transformed data to create interactive dashboards. Power Query is used for additional data transformations within Power BI. These dashboards provide visual insights and facilitate data-driven decision-making.
 
 ## repository-structure
 
