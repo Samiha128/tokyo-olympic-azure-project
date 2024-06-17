@@ -25,6 +25,8 @@ Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this proje
 
 ## repository-structure
 
+
+```
 tokyo-olympic-azure-project
 │   README.md
 │
@@ -37,9 +39,10 @@ tokyo-olympic-azure-project
 │
 ├── images
 │   │   workflow of the project data pipeline.jpg
-│   │   data pipeline
+│   │   data-pipeline.jpg
 │
 └──  Tokyo Olympic Transformation.ipynb
+```
        
 
 
