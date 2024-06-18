@@ -61,7 +61,8 @@ tokyo-olympic-azure-project
 ## How to Run
 - To execute this data pipeline, follow these steps:
 
-  Azure Subscription: Firstly, you need an Azure subscription. In our case, we used a student subscription which provides $100 free credit for students.
+## Azure Subscription: 
+  Firstly, you need an Azure subscription. In our case, we used a student subscription which provides $100 free credit for students.
 
 ### Create Azure Resources:
 
