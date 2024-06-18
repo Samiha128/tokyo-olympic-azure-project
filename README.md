@@ -13,7 +13,7 @@ Beginning with the 2021 Olympics data stored in GitHub’s CSV files, this proje
 
 
 ##  technologies-used:
-- **Github**: Hosting the raw HR data.
+- **Github**: Host the Tokyo Olympic data as raw data.
 - **Azure Data Factory**: Utilized for orchestration of data pipelines.
 - **Azure Data Lake Storage Gen2**: Used for storing data.
 - **Azure Databricks**: Employed for data analysis.
