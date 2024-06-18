@@ -66,14 +66,10 @@ tokyo-olympic-azure-project
 
 ### Create Azure Resources:
 
- #### Azure Data Factory: 
- Create an Azure Data Factory instance to orchestrate and automate data movement and transformation processes.
-####  Azure Data Lake Storage Gen2:
- Set up a Storage Account with Azure Data Lake Storage Gen2 to store both raw and transformed data securely.
-#### Azure Databricks:
- Create an Azure Databricks instance. During creation, ensure to configure a cluster in the compute zone within Databricks.
-####  Azure Synapse Analytics: 
- Set up an instance of Azure Synapse Analytics (formerly SQL Data Warehouse) for data warehousing and SQL-based analytics.
+#### Azure Data Factory: Create an Azure Data Factory instance to orchestrate and automate data movement and transformation processes.
+####  Azure Data Lake Storage Gen2:Set up a Storage Account with Azure Data Lake Storage Gen2 to store both raw and transformed data securely.
+#### Azure Databricks:Create an Azure Databricks instance. During creation, ensure to configure a cluster in the compute zone within Databricks.
+####  Azure Synapse Analytics: Set up an instance of Azure Synapse Analytics (formerly SQL Data Warehouse) for data warehousing and SQL-based analytics.
 
 ### Install Power BI Desktop:
 
