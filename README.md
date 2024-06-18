@@ -5,6 +5,7 @@
 - [Technologies Used](#technologies-used)
 - [Data Pipeline](#data-pipeline)
 - [Repository Structure](#repository-structure)
+- [How to Run](#How-to-Run)
 - [Problems to Avoid](#Problems-to-Avoid) 
 - [Dashboard](#dashboard)
 ##  Project Overview:
@@ -58,6 +59,9 @@ tokyo-olympic-azure-project
 │
 └──  Tokyo Olympic Transformation.ipynb
 ```
+## How to Run
+To execute this data pipeline, follow these steps:
+
 ## Problems to Avoid
 
   
