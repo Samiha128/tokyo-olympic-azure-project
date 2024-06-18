@@ -63,14 +63,14 @@ tokyo-olympic-azure-project
 To execute this data pipeline, follow these steps:
   Azure Subscription: Firstly, you need an Azure subscription. In our case, we used a student subscription which provides $100 free credit for students.
 
-Create Azure Resources:
+## Create Azure Resources:
 
   Azure Data Factory: Create an Azure Data Factory instance to orchestrate and automate data movement and transformation processes.
   Azure Data Lake Storage Gen2: Set up a Storage Account with Azure Data Lake Storage Gen2 to store both raw and transformed data securely.
   Azure Databricks: Create an Azure Databricks instance. During creation, ensure to configure a cluster in the compute zone within Databricks.
   Azure Synapse Analytics: Set up an instance of Azure Synapse Analytics (formerly SQL Data Warehouse) for data warehousing and SQL-based analytics.
 
-Install Power BI Desktop:
+## Install Power BI Desktop:
 
   Install Power BI Desktop for editing and viewing dashboards. Power BI will connect to Azure Synapse Analytics to visualize and analyze the transformed data.
 
